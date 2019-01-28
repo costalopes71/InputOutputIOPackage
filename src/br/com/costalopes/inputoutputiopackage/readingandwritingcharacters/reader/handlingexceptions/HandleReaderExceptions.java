@@ -1,4 +1,4 @@
-package br.com.costalopes.inputoutputiopackage.reader.handlingexceptions;
+package br.com.costalopes.inputoutputiopackage.readingandwritingcharacters.reader.handlingexceptions;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
 
-import br.com.costalopes.inputoutputiopackage.reader.ReadingCharsWithReader;
+import br.com.costalopes.inputoutputiopackage.readingandwritingcharacters.reader.ReadingCharsWithReader;
 
 public class HandleReaderExceptions {
 

@@ -1,4 +1,4 @@
-package br.com.costalopes.inputoutputiopackage.writer.livecoding;
+package br.com.costalopes.inputoutputiopackage.readingandwritingcharacters.writer.livecoding;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

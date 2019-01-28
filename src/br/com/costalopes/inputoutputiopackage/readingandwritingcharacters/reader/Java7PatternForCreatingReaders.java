@@ -1,4 +1,4 @@
-package br.com.costalopes.inputoutputiopackage.reader;
+package br.com.costalopes.inputoutputiopackage.readingandwritingcharacters.reader;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,4 +1,4 @@
-package br.com.costalopes.inputoutputiopackage.writer;
+package br.com.costalopes.inputoutputiopackage.readingandwritingcharacters.writer;
 
 import java.io.File;
 import java.io.FileWriter;

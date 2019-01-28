@@ -1,4 +1,4 @@
-package br.com.costalopes.inputoutputiopackage.reader;
+package br.com.costalopes.inputoutputiopackage.readingandwritingcharacters.reader;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,11 +14,11 @@ public class ConstructingReaders {
 		Existem 2 jeitos de extender um Reader (Reader eh uma classe abstrata).
 		Existem 2 categorias de classes concretas que extendem Reader
 		
-			1ª categoria: classes para um determinado tipo de entrada (input)
+			1ï¿½ categoria: classes para um determinado tipo de entrada (input)
 				- Disk : FileReader
 				- In-Memory : CharArrayReader, StringReader
 				
-			2ª categoria: classes que adicionam comportamento a um Reader
+			2ï¿½ categoria: classes que adicionam comportamento a um Reader
 				- BufferedReader : reader concreto que usa bufferazation
 				- LineNumberReader : permite a leitura de um arquivo linha a linha
 				- PushbackReader
