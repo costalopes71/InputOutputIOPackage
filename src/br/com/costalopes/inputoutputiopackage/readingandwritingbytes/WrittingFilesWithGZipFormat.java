@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
-public class GZipStreamFormat {
+public class WrittingFilesWithGZipFormat {
 
 	public static void main(String[] args) throws IOException {
 		
