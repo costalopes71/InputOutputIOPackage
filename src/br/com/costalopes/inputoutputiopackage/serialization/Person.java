@@ -14,6 +14,7 @@ public class Person implements Serializable {
 
 	private String name;
 	private int age;
+	// transient fala para o processo de serializacao para NAO serealizar esse objeto
 	private transient Connection example;
 
 	public int getAge() {
