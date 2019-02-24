@@ -15,7 +15,7 @@ import br.com.costalopes.inputoutputiopackage.hybridstreams.livecoding.model.Fab
 import br.com.costalopes.inputoutputiopackage.hybridstreams.livecoding.util.AesopReader;
 import br.com.costalopes.inputoutputiopackage.hybridstreams.livecoding.util.FableData;
 
-public class WritingHubridStream {
+public class WritingHybridStream {
 
 	public static void main(String[] args) throws IOException {
 		
@@ -46,7 +46,7 @@ public class WritingHubridStream {
 		out.close();
 		int textOffset = aesopBos.size();
 		
-//		System.out.println(aesopBos.toString());
+		System.out.println(aesopBos.toString());
 		
 		ByteArrayOutputStream textBos = new ByteArrayOutputStream();
 		
@@ -64,9 +64,9 @@ public class WritingHubridStream {
 
 			int length = fableBos.size();
 			textBos.write(fableBos.toByteArray());
-			offset += length;
-			
 			fableDatas.add(new FableData(fable, offset, length));
+			
+			offset += length;
 		}
 		
 		textBos.close();
